@@ -1,0 +1,148 @@
+.latest-games .header h2 {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.more-games .header h2 {
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.our-team .header h2 {
+    font-size: 48px;
+
+    line-height: 48px;
+
+}
+
+.menu-item span {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .latest-games .header h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .more-games .header h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .more-games .header p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .service-card {
+        min-height: 180px;
+        padding: 16px;
+    }
+
+    .service-card h3 {
+        font-size: 13px;
+    }
+
+    .service-card .icon {
+        width: 45px;
+        height: 45px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hero-img img {
+        height: 224px;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 32px;
+        line-height: 40px;
+        width: 100%;
+    }
+
+    .players-card {
+        position: static;
+        display: flex;
+        justify-content: center;
+        left: -14px;
+        bottom: 120px;
+    }
+
+    .latest-games .header h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .latest-games .header span {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .latest-games .view-btn {
+        width: 100%;
+    }
+
+    .carousel-nav {
+        align-items: center;
+    }
+
+    .more-games .header h2 {
+        font-size: 24px;
+        line-height: 25px;
+    }
+
+    .more-games .header p {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .our-team .header h2 {
+        font-size: 38px;
+        line-height: 40px;
+
+    }
+
+    .our-team .header p {
+        font-size: 18px;
+        line-height: 25px;
+
+    }
+
+    .menu-item span {
+        display: inline;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .btn-main,
+    .btn-outline {
+        width: auto;
+        margin-bottom: 16px;
+    }
+
+    .hero {
+        padding: 120px 64px;
+
+
+    }
+
+    .menu-icons {
+        flex-direction: row;
+        width: auto;
+    }
+
+    .menu-item {
+        border: none;
+        padding: 0;
+    }
+
+    .btn-main {
+        width: auto;
+    }
+
+}

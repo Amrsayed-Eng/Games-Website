@@ -1,25 +1,5 @@
-.latest-games .header h2 {
-    font-size: 48px;
-    line-height: 48px;
-}
-
-.more-games .header h2 {
-    font-size: 48px;
-    line-height: 48px;
-}
-
-.our-team .header h2 {
-    font-size: 48px;
-
-    line-height: 48px;
-
-}
-
-.menu-item span {
-    display: none;
-}
-
 @media (max-width: 576px) {
+
     .latest-games .header h2 {
         font-size: 28px;
         line-height: 34px;
@@ -48,10 +28,15 @@
         width: 45px;
         height: 45px;
     }
-
 }
 
 @media (max-width: 768px) {
+
+    .hero-img {
+        height: 224px;
+        width: 100%;
+    }
+
     .hero-img img {
         height: 224px;
         width: 100%;
@@ -61,14 +46,7 @@
         font-size: 32px;
         line-height: 40px;
         width: 100%;
-    }
-
-    .players-card {
-        position: static;
-        display: flex;
-        justify-content: center;
-        left: -14px;
-        bottom: 120px;
+        text-align: center;
     }
 
     .latest-games .header h2 {
@@ -78,7 +56,6 @@
 
     .latest-games .header span {
         font-size: 18px;
-        line-height: 20px;
     }
 
     .latest-games .view-btn {
@@ -91,30 +68,23 @@
 
     .more-games .header h2 {
         font-size: 24px;
-        line-height: 25px;
     }
 
     .more-games .header p {
-        font-size: 22px;
-        line-height: 24px;
+        font-size: 20px;
     }
 
     .our-team .header h2 {
-        font-size: 38px;
-        line-height: 40px;
-
+        font-size: 32px;
     }
 
     .our-team .header p {
-        font-size: 18px;
-        line-height: 25px;
-
+        font-size: 16px;
     }
 
     .menu-item span {
-        display: inline;
+        display: none;
     }
-
 }
 
 @media (min-width: 992px) {
@@ -126,9 +96,7 @@
     }
 
     .hero {
-        padding: 120px 64px;
-
-
+        padding: 120px 32px;
     }
 
     .menu-icons {
@@ -144,5 +112,4 @@
     .btn-main {
         width: auto;
     }
-
 }
